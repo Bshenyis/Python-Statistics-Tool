@@ -3,8 +3,8 @@ import statistics
 
 #list to store all the students' scores
 scores = []
-scoreFile = open(C:\Users\Brandon\Documents\GradingStatistics\studentScores, 'r')
-outputFile = open(C:\Users\Brandon\Documents\GradingStatistics\scoreStatistics, 'w')
+scoreFile = open(studentScores, 'r')
+outputFile = open(scoreStatistics, 'w+')
 
 for line in scoreFile.readlines():
 	line = line.strip() #getting rid of the \n characters
